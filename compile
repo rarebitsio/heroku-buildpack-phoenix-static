@@ -1,4 +1,4 @@
-cd assets/
+cd $phoenix_dir/assets
 webpack --config webpack.production.config.js --progress --profile --colors
 
 cd $phoenix_dir
