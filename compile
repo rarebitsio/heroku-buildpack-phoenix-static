@@ -1,4 +1,6 @@
-./node_modules/.bin/webpack --config webpack.production.config.js --progress --profile --colors
+echo "=== RARE BITS WEBPACK PRODUCTION JS ==="
+export NODE_OPTIONS=--max_old_space_size=4096
+./node_modules/webpack-cli/bin/cli.js --config webpack.production.config.js --progress --profile --colors
 
 cd $phoenix_dir
 
